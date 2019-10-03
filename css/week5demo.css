@@ -27,8 +27,23 @@ aside {
     margin: 36px;
 }
 
-h1, h2, h3, h4, h5, h6{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+@font-face {
+    font-family: "Another Birdhouse Light";
+    src: url("../fonts/Another\ Birdhouse\ Light.ttf");
+}
+
+
+h1, h3  {
+
+    font-family: "Another Birdhouse Light";
+}
+
+h1 {
+    font-size: 72px;
+}
+
+h3 {
+    font-size: 36px;
 }
 
 #cranevideo  {
